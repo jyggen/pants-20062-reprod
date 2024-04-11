@@ -1,0 +1,6 @@
+cowsay_source(name="bazqux", source="bazqux")
+cowsay_source(name="cowsay", source="cowsay")
+cowsay_source(name="example", source="example")
+cowsay_source(name="foobar", source="foobar")
+cowsay_source(name="pants", source="pants")
+cowsay_source(name="querty", source="qwerty")

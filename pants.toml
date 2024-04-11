@@ -1,0 +1,18 @@
+[GLOBAL]
+pants_version = "2.19.1"
+pythonpath = ["%(buildroot)s/pants-plugins"]
+backend_packages.add = [
+    "foobar",
+    "pants.backend.python",
+    "pants.backend.plugin_development",
+]
+
+[python]
+enable_resolves = true
+interpreter_constraints = ["==3.9.*"]
+
+[source]
+root_patterns = [
+  "/pants-plugins",
+  "/src",
+]
